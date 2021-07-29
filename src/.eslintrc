@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreComments": true
+      }
+    ],
+    "spaced-comment": [
+      "error",
+      "always",
+      {
+        "line": {
+          "markers": ["/"]
+        }
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/no-named-as-default": 0
+  }
+}
