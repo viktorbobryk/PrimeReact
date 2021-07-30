@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: var(--surface-0);
+  color: var(--text-color);
 }
 
 .AppLogo {
@@ -22,6 +24,17 @@
   background-color: #282c34;
   color: white;
   font-size: calc(10px + 2vmin);
+}
+
+.topBar {
+  height: 60px;
+  display: flex;
+  width: 100%;
+  background-color: var(--blue-500);
+}
+
+.content {
+
 }
 
 @keyframes App-logo-spin {
