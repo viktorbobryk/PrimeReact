@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
   background-color: var(--surface-0);
   color: var(--text-color);
+  text-align: center;
 }
 
 .AppLogo {
@@ -27,14 +27,10 @@
 }
 
 .topBar {
-  height: 60px;
   display: flex;
   width: 100%;
+  height: 60px;
   background-color: var(--blue-500);
-}
-
-.content {
-
 }
 
 @keyframes App-logo-spin {
